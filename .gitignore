@@ -1,9 +1,14 @@
 test/current/
 gif
 /Manifest.toml
+test/Manifest.toml
 visualizations/images/
 visualizations/videos/
 literature/
 extra/
 test/logs/
 docs/build/
+docs/Manifest.toml
+benchmark/**/results
+instances
+**/nohup.out

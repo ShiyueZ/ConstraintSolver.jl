@@ -1,5 +1,6 @@
 using Documenter
 using ConstraintSolver
+using JuMP
 
 makedocs(
     # See https://github.com/JuliaDocs/Documenter.jl/issues/868
@@ -10,13 +11,13 @@ makedocs(
         "Home" => "index.md",
         "Tutorial" => "tutorial.md",
         "How-To" => "how_to.md",
+        "Solver options" => "options.md",
+        "Supported/Planned" => "supported.md",
         "Explanation" => "explanation.md",
         "Reference" => "reference.md",
-#        "Developer" => [],
-#        "Library" => "library.md"
-    ]
+        #        "Developer" => [],
+        #        "Library" => "library.md"
+    ],
 )
 
-deploydocs(
-    repo = "github.com/Wikunia/ConstraintSolver.jl.git",
-)
+deploydocs(repo = "github.com/Wikunia/ConstraintSolver.jl.git")

@@ -1,3 +1,18 @@
 [deps]
+ConstraintProgrammingExtensions = "b65d079e-ed98-51d9-b0db-edee61a5c5f8"
 ConstraintSolver = "e0e52ebd-5523-408d-9ca3-7641f1cd1405"
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+Formatting = "59287772-0a20-5a39-b81b-1366585eb4c0"
+JuMP = "4076af6c-e467-56ae-b986-b466b2749572"
+LightGraphs = "093fc24a-ae57-5d10-9952-331d41423f4d"
+MathOptInterface = "b8f27783-ece8-5eb3-8dc8-9495eed66fee"
+MatrixNetworks = "4f449596-a032-5618-b826-5a251cb6dc11"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
+
+[compat]
+JuMP = "^0.21.3"
+MathOptInterface = "^0.9.11"
+julia = "1"
